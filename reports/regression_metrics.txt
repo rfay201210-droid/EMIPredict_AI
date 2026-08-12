@@ -1,0 +1,32 @@
+Best Model: XGBoost_Regressor
+
+Linear_Regression:
+  rmse: 3459.1306
+  mae: 2419.8342
+  r2: 0.7835
+  mape: 170.1097
+
+Ridge_Regression:
+  rmse: 3459.1935
+  mae: 2419.7786
+  r2: 0.7835
+  mape: 170.1101
+
+Random_Forest_Regressor:
+  rmse: 1346.8251
+  mae: 517.4001
+  r2: 0.9672
+  mape: 14.6929
+
+XGBoost_Regressor:
+  rmse: 1255.5689
+  mae: 541.2913
+  r2: 0.9715
+  mape: 22.5412
+
+Gradient_Boosting_Regressor:
+  rmse: 1657.9912
+  mae: 843.7651
+  r2: 0.9503
+  mape: 41.7333
+

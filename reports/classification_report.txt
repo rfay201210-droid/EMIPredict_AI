@@ -1,0 +1,19 @@
+Best Model: XGBoost_Classifier
+
+              precision    recall  f1-score   support
+
+    Eligible       0.89      0.95      0.92       919
+   High_Risk       0.77      0.05      0.09       216
+Not_Eligible       0.96      0.99      0.97      3865
+
+    accuracy                           0.94      5000
+   macro avg       0.87      0.66      0.66      5000
+weighted avg       0.94      0.94      0.92      5000
+
+
+All metrics:
+Logistic_Regression: {'accuracy': 0.92, 'f1_weighted': 0.9001180865057946, 'precision': 0.8811038769309485, 'recall': 0.92, 'roc_auc': 0.9768121513403552}
+Random_Forest_Classifier: {'accuracy': 0.9334, 'f1_weighted': 0.9127898091211968, 'precision': 0.8932960145433906, 'recall': 0.9334, 'roc_auc': 0.988250527579525}
+XGBoost_Classifier: {'accuracy': 0.9426, 'f1_weighted': 0.924955263788698, 'precision': 0.9358333988126744, 'recall': 0.9426, 'roc_auc': 0.9918621069088583}
+Gradient_Boosting_Classifier: {'accuracy': 0.9374, 'f1_weighted': 0.9183332017617551, 'precision': 0.9170174370715513, 'recall': 0.9374, 'roc_auc': 0.989060874092371}
+Decision_Tree_Classifier: {'accuracy': 0.9212, 'f1_weighted': 0.9241968593810117, 'precision': 0.9275676696430483, 'recall': 0.9212, 'roc_auc': 0.9330945543325377}
